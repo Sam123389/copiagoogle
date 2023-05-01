@@ -1,3 +1,7 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+</style>
+}
 header a{
     float: right;
     width: 70px;
@@ -23,6 +27,7 @@ ul.cabeza{
     height: 20px;
     margin-left: 15px;
 }
+
 main{
     margin-top: 30px;
     text-align: center;
@@ -34,10 +39,13 @@ img{
 div.logo{
 margin: 0px 480px ;
 }
-.input-search{
+#input-search{
     width: 530px;
     margin: 0 auto;
     margin-bottom: 10px;
+}
+.input-search-container :hover{
+    box-shadow: 0 1px 6px 0 #20212447;
 }
 .input-search-container{
     width: 525px;
@@ -53,7 +61,10 @@ main input{
     border: none;
     outline: none;
 }
-div.button{
+.btn-search :hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+.btn-search{
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
